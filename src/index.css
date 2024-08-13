@@ -1,0 +1,52 @@
+nav{
+  background-color:gray;
+  color: white;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+li:hover{
+         color: aqua;
+
+}
+ul{
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  font-size: 20px;
+  padding-top: 8px;
+}
+
+.row{
+  padding-top: 20px;
+  
+}
+.col{
+  padding-top: 50px;
+}
+
+.card-body img{
+  width: 130px;
+  height: 130px;
+  
+}
+.card-footer img{
+  width: 30px;
+  height: 30px;
+}
+.card-footer h5{
+  color:brown
+}
+.card-title h3{
+  font-size: 40px;
+  color:black;
+}
+.card{
+  transition: all .5s;
+}
+
+.card:hover{
+  transform: scale(1.05);
+}
